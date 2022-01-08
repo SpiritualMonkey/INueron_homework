@@ -243,8 +243,8 @@ def move_file(file_source_arg, file_destination_arg):
         shutil.move(file_source + g, file_destination_arg)
 
 
-file_source = 'C:/Users/rohan/Desktop/TCS documentation/'
-file_destination = 'C:/Users/rohan/Desktop/Nitin bhatia'
+# file_source = 'C:/Users/rohan/Desktop/TCS documentation/'
+# file_destination = 'C:/Users/rohan/Desktop/Nitin bhatia'
 
 # move_file(file_source, file_destination)
 
@@ -359,7 +359,7 @@ def read_word_file(path):
     """
     import textract
 
-    text = textract.process("C:/Users/rohan/Desktop/Data Structure and Algorithms(MIT OCW).docx")
+    text = textract.process(path)
     print(text)
 
 
