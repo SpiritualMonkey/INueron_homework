@@ -317,7 +317,7 @@ def send_mail(domain_smtp, email_add, password, receiver_mail, mail_subject, mai
 
 
 
-# send_mail(gmail_smtp, email, password, receiver_mail, "Hello", "I would like to fuck you!")
+# send_mail(gmail_smtp, email, password, receiver_mail, "Hello", "I am Rohan")
 
 """ 16. write a func to read a complete PDf file .  """
 
